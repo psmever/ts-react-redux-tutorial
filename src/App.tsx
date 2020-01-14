@@ -4,12 +4,12 @@ import TodoList from './components/TodoList';
 
 
 function App() {
-  return (
+    return (
       <>
-        <TodoInsert/>
-        <TodoList/>
+        <TodoInsert />
+        <TodoList />
       </>
-  );
-}
+    );
+  }
 
-export default App;
+  export default App;

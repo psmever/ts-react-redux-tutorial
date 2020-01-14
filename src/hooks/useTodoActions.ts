@@ -9,5 +9,4 @@ export default function useTodoActions(id: number) {
     const onRemove = useCallback(() => dispatch(removeTodo(id)), [dispatch, id]);
 
     return { onToggle, onRemove };
-
-}
+  }
